@@ -3,23 +3,27 @@
      class TicTacToe
 
     {
-        public void button1()
+       atic void UC_CASE(string[] args)
         {
-            Console.WriteLine("Game tictactoe");
-        }
-        public void buttonclick(object sender, EventArgs a)
-        {
+        
 
-        }
-        public void playAll(object sender,EventArgs a)
-        {
+            int employePresent = 5;
 
-        }
-        public void resetgame(object sender,EventArgs a)
-        {
+            Random random = new Random();
 
-        }
-       static void Main (string[] args)
+            int empCheck = random.Next(0,6);
+
+            
+              if  (employePresent == empCheck)
+
+            Console.WriteLine("Employe is present");
+
+
+            else
+                Console.WriteLine("Employe is absent");
+                 
+               Console.ReadLine();
+
         {
 
         }
